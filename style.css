@@ -489,8 +489,8 @@ button
 	#hero-img
 	{
 		top: -70px;
-		left: -50px;
-		right: -50px;
+		left: -20px;
+		right: -20px;
 		opacity: 0.9;
 	}
 	
@@ -517,7 +517,7 @@ button
 	
 	.full-width
 	{
-		margin: 100px -50px;
+		margin: 100px -20px;
 	}
 	
 	.grid-2
