@@ -1,10 +1,34 @@
+@font-face
+{
+	font-family: 'KH WHISKEY BLOCK';
+	src: url('webfont-1.eot');
+	src: url('webfont-1.eot?#iefix') format('embedded-opentype'),
+		url('webfont-1.woff2') format('woff2'),
+		url('webfont-1.woff') format('woff'),
+		url('webfont-1.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face
+{
+	font-family: 'League Gothic';
+	src: url('webfont-2.eot');
+	src: url('webfont-2.eot?#iefix') format('embedded-opentype'),
+		url('webfont-2.woff2') format('woff2'),
+		url('webfont-2.woff') format('woff'),
+		url('webfont-2.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+
 body, button
 {
 	margin: 0 auto;
 	max-width: 1440px;
 	background: #ddd3bc;
 	padding: 75px 50px;
-	font-family: "KH Whiskey Block", sans-serif;
+	font-family: "KH WHISKEY BLOCK", sans-serif;
 	text-transform: uppercase;
 	font-size: 11px;
 	letter-spacing: 0.05em;
