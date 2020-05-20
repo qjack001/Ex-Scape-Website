@@ -1,11 +1,11 @@
 @font-face
 {
 	font-family: 'KH WHISKEY BLOCK';
-	src: url('webfont-1.eot');
-	src: url('webfont-1.eot?#iefix') format('embedded-opentype'),
-		url('webfont-1.woff2') format('woff2'),
-		url('webfont-1.woff') format('woff'),
-		url('webfont-1.ttf') format('truetype');
+	src: url('./fonts/webfont-1.eot');
+	src: url('./fonts/webfont-1.eot?#iefix') format('embedded-opentype'),
+		url('./fonts/webfont-1.woff2') format('woff2'),
+		url('./fonts/webfont-1.woff') format('woff'),
+		url('./fonts/webfont-1.ttf') format('truetype');
 	font-weight: normal;
 	font-style: normal;
 }
@@ -13,11 +13,11 @@
 @font-face
 {
 	font-family: 'League Gothic';
-	src: url('webfont-2.eot');
-	src: url('webfont-2.eot?#iefix') format('embedded-opentype'),
-		url('webfont-2.woff2') format('woff2'),
-		url('webfont-2.woff') format('woff'),
-		url('webfont-2.ttf') format('truetype');
+	src: url('./fonts/webfont-2.eot');
+	src: url('./fonts/webfont-2.eot?#iefix') format('embedded-opentype'),
+		url('./fonts/webfont-2.woff2') format('woff2'),
+		url('./fonts/webfont-2.woff') format('woff'),
+		url('./fonts/webfont-2.ttf') format('truetype');
 	font-weight: normal;
 	font-style: normal;
 }
