@@ -527,12 +527,14 @@ button
 	
 	.grid-4 a
 	{
-		width: calc(100% - 30px);
+		width: 100%;
+		box-sizing: border-box;
 	}
 	
 	#contact
 	{
-		width: 110%;
+		width: 100%;
+		box-sizing: border-box;
 	}
 }
 
