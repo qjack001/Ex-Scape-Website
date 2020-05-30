@@ -184,11 +184,6 @@ section
 	border: 1px solid #000;
 }
 
-#hero-img img
-{
-	opacity: 0.8;
-}
-
 #scroll-prompt
 {
 	display: block;
@@ -201,6 +196,8 @@ section
 	border-bottom-color: #ddd3bc;
 	position: relative;
 	background: #ddd3bc;
+	text-align: center;
+	letter-spacing: 0.25em;
 }
 
 .tr
@@ -261,6 +258,17 @@ p
 {
 	font-size: 0.875rem;
 	line-height: 1.5;
+}
+
+p a
+{
+	color: #c4534e;
+	text-decoration: none;
+}
+
+p a:hover
+{
+	text-decoration: underline;
 }
 
 .grid-2
@@ -327,12 +335,22 @@ p
 	fill: #c4534e;
 }
 
+.service-img
+{
+	width: 100%;
+	opacity: 0.9;
+	mix-blend-mode: darken;
+	margin: 13px 0;
+}
+
 #contact
 {
 	border: 1px solid #000;
 	text-align: center;
 	padding: 50px 0 0;
 	box-shadow: inset 0 0 0 10px #c4534e;
+	max-width: 750px;
+	margin: auto;
 }
 
 #badge
@@ -350,7 +368,7 @@ p
 
 .full-width
 {
-	margin: 100px -50px;
+	margin: 100px -50px 50px;
 }
 
 .full-width img
@@ -385,7 +403,7 @@ button
 	
 	#hero-img img
 	{
-		opacity: 0.5;
+		opacity: 0.8;
 	}
 }
 
