@@ -271,6 +271,13 @@ p a:hover
 	text-decoration: underline;
 }
 
+u
+{
+	display: inline-block;
+	box-shadow: inset 0 -10px 0 0 rgba(196, 83, 78, 0.8);
+	text-decoration: none;
+}
+
 .grid-2
 {
 	display: grid;
@@ -335,10 +342,14 @@ p a:hover
 	fill: #c4534e;
 }
 
+#services p
+{
+	min-height: 6em;
+}
+
 .service-img
 {
 	width: 100%;
-	opacity: 0.9;
 	mix-blend-mode: darken;
 	margin: 13px 0;
 }
@@ -353,6 +364,7 @@ p a:hover
 	margin: auto;
 }
 
+/*
 #badge
 {
 	background-image: url(badge@3x.png);
@@ -365,6 +377,41 @@ p a:hover
 	right: 100px;
 	top: -70px;
 }
+*/
+
+blockquote
+{
+	font-family: "League Gothic";
+	font-size: 2rem;
+}
+
+.gallery
+{
+	text-align: center;
+	margin: 50px 0;
+}
+
+.gallery img
+{
+	height: 300px;
+	max-width: 100%;
+	object-fit: contain;
+	margin: 10px;
+	mix-blend-mode: darken;
+}
+
+img.centered
+{
+	max-width: 600px;
+	margin: 50px auto;
+	display: block;
+	mix-blend-mode: darken;
+}
+
+h1 + img.centered
+{
+	margin-top: 30px;
+}
 
 .full-width
 {
@@ -376,7 +423,6 @@ p a:hover
 	width: 100%;
 	height: 300px;
 	object-fit: cover;
-	opacity: 0.8;
 	mix-blend-mode: darken;
 }
 
@@ -394,6 +440,12 @@ button
 	outline: none;
 }
 
+#contact p
+{
+	font-size: 2rem;
+	margin: 20px 0 70px;
+}
+
 @media screen and (max-width: 1300px)
 {
 	#hero-img
@@ -403,7 +455,7 @@ button
 	
 	#hero-img img
 	{
-		opacity: 0.8;
+		opacity: 0.85;
 	}
 }
 
@@ -473,6 +525,15 @@ button
 		text-align: right;
 	}
 	
+	nav#mobile button:focus
+	{
+		border-radius: 100%;
+		box-shadow: 0 0 0 2px #c4534e;
+		width: 72px;
+		transform: translateX(18px);
+		text-align: center;
+	}
+
 	nav#mobile ul
 	{
 		background: #ddd3bc;
@@ -500,6 +561,11 @@ button
 	{
 		margin: 50px auto 30px;
 	}
+	
+	#contact p
+	{
+		font-size: 6vw;
+	}
 }
 
 @media screen and (max-width: 575px)
@@ -509,7 +575,7 @@ button
 		top: -70px;
 		left: -20px;
 		right: -20px;
-		opacity: 0.9;
+/*		opacity: 0.9;*/
 	}
 	
 	#hero-img img
