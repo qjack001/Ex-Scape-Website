@@ -59,6 +59,8 @@ header
 nav
 {
 	float: right;
+	width: 70%;
+	text-align: right;
 }
 
 nav ul
